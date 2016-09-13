@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:id="@+id/updateID"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/updateIDExpenditure"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter ID"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/amount"
+        android:id="@+id/updateAmount"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/updateAmountExpenditure"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter Amount"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usage"
+        android:id="@+id/updateUsage"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/updateUsageExpenditure"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter Usage"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:id="@+id/updateDate"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/updateDateExpenditure"
+        android:hint="Enter Date"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        android:id="@+id/updateTime"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/updateTimeExpenditure"
+        android:hint="Enter Time"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/place_spent"
+        android:id="@+id/updatePlace"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:ems="10"
+        android:id="@+id/updatePlaceExpenditure"
+        android:hint="Enter Place of Spending"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

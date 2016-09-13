@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Financial Track</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="income_registration_intro">Income Form</string>
+    <string name="expenditure_registration_intro">Expenditure Form</string>
+    <string name="amount">Amount</string>
+    <string name="source">Source</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="usage">Usage</string>
+    <string name="place_spent">Place of Spending</string>
+    <string name="place_acquired">Place of Acquisition</string>
+    <string name="search_income">Search for Income.</string>
+    <string name="search_expenditure">Search for Expenditure.</string>
+    <string name="login">Login</string>
+    <string name="record_income">Record Income</string>
+    <string name="record_expenditure">Record Expenditure</string>
+    <string name="settings">Settings</string>
+    <string name="reports">Reports</string>
+    <string name="search_income_records">Search for Income Records</string>
+    <string name="search_expenditure_records">Search for Expenditure Records</string>
+    <string name="send_to_mail">Send Reports to Mail</string>
+    <string name="share">Share</string>
+    <string name="login_screen">Login Screen</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+</resources>
+
+

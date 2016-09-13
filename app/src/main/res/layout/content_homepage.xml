@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.samwelopiyo.financialtrack.financialtrack.Homepage"
+    tools:showIn="@layout/app_bar_homepage">
+
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="@string/income_registration_intro"
+    android:id="@+id/income_registration_intro"
+    android:gravity="center"
+    android:textSize="30sp"
+    android:padding="10dp"
+    android:textColor="@color/black"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/amount"
+    android:id="@+id/amountIncomeTextView"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:textColor="@color/black"/>
+
+<EditText
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:inputType="numberDecimal"
+    android:ems="10"
+    android:id="@+id/amountIncomeEditText"
+    android:layout_gravity="center_horizontal"
+    android:hint="Enter Amount"
+    android:gravity="center"
+    android:textColor="@color/black"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/source"
+    android:id="@+id/sourceIncomeTextView"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:textColor="@color/black"/>
+
+<EditText
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/sourceIncomeEditText"
+    android:layout_gravity="center_horizontal"
+    android:hint="Enter Source"
+    android:gravity="center"
+    android:textColor="@color/black"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/date"
+    android:id="@+id/dateIncomeTextView"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:textColor="@color/black"/>
+
+<EditText
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:inputType="date"
+    android:ems="10"
+    android:id="@+id/dateIncomeEditText"
+    android:hint="Enter Date"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:textColor="@color/black"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/time"
+    android:id="@+id/timeIncomeTextView"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:textColor="@color/black"/>
+
+<EditText
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:inputType="time"
+    android:ems="10"
+    android:id="@+id/timeIncomeEditText"
+    android:hint="Enter Time"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:textColor="@color/black"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/place_acquired"
+    android:id="@+id/placeAcquiredExpenditureTextView"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:textColor="@color/black"/>
+
+<EditText
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:inputType="textCapWords"
+    android:ems="10"
+    android:id="@+id/placeAcquiredIncomeEditText"
+    android:hint="Enter Place of Acquisition"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:textColor="@color/black"/>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textColor="@color/black"
+        android:id="@+id/submitIncome"
+        style="?android:attr/buttonBarButtonStyle"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:textColor="@color/black"
+        android:id="@+id/resetIncome"
+        style="?android:attr/buttonBarButtonStyle"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/submitIncome"
+        android:layout_toEndOf="@+id/submitIncome" />
+
+
+</RelativeLayout>
+
+</LinearLayout>

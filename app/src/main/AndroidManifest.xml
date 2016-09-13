@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.samwelopiyo.financialtrack.financialtrack" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mint"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.samwelopiyo.financialtrack.financialtrack.login"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".register_expenditure"></activity>
+        <activity android:name=".search_income"></activity>
+        <activity android:name=".signup"></activity>
+        <activity android:name=".settings"></activity>
+        <activity android:name=".search_expenditure"></activity>
+        <activity android:name=".Homepage"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <action android:name="android.intent.action.VIEW"></action>
+                <category android:name="android.intent.category.HOME"></category>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

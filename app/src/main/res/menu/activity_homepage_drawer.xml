@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_record_income"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="@string/record_income" />
+        <item
+            android:id="@+id/nav_record_expenditure"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/record_expenditure" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/settings" />
+    </group>
+
+    <item android:title="@string/reports">
+        <menu>
+            <item
+                android:id="@+id/nav_search_income"
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="@string/search_income_records" >
+
+            </item>
+            <item
+                android:id="@+id/nav_search_expenditure"
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="@string/search_expenditure_records" >
+
+            </item>
+            <item
+                android:id="@+id/nav_send_mail"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="@string/send_to_mail" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="@string/share" />
+
+        </menu>
+    </item>
+
+</menu>
